@@ -1,0 +1,18 @@
+{
+  "maxplayers": 1000,
+  "name": "Project-X",
+  "gamemode": "RP",
+  "stream-distance": 500.0,
+  "announce": false,
+  "csharp": "disabled",
+  "bind": "127.0.0.1",
+  "port": 22005,
+  "encryption": false,
+  "url": "https://discord.gg/6uyCuV7U",
+  "language": "ru",
+  "allow-cef-debugging": true,
+  "enable-http-security": false,
+  "voice-chat": true,
+  "voice-chat-sample-rate": 24000,
+  "resources-compression-level": 0
+}
