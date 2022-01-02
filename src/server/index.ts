@@ -1,8 +1,6 @@
 import './setup'
 import { PrismaClient } from '@prisma/client'
 
-import rpc from 'rage-rpc'
-
 const prisma = new PrismaClient()
 
 async function main() {}
@@ -14,5 +12,3 @@ main()
   .finally(async () => {
     await prisma.$disconnect()
   })
-
-rpc.register('TEST', () => {})

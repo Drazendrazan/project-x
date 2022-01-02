@@ -1,5 +1,6 @@
 import { localPlayer } from '@/constants'
 import hud from '@/hud'
+
 class Noclip {
   private _enable: boolean = false
   private _noclipCamera: CameraMp = mp.cameras.new('gameplay')

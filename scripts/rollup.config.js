@@ -155,6 +155,7 @@ export default [
         check: false,
         tsconfig: resolvePath([sourcePath, 'client', 'tsconfig.json']),
       }),
+      commonjs(),
       productionMode,
     ],
     inlineDynamicImports: true,
