@@ -30,11 +30,17 @@
 
 ---
 
-## Участники проекта
+## Команда проекта
 
 > mo3g666 - [GitHub](https://github.com/mo3g666) | [Discord](https://discordapp.com/users/297425280912588811/)
 >
 > Lev Angel - [GitHub](https://github.com/mike-hammer) | [Discord](https://discordapp.com/users/821395962051559426/)
+
+## Участники проекта
+
+> SashaGoncharov19 - [GitHub](https://github.com/SashaGoncharov19) | [Discord](https://discordapp.com/users/314095628798001153/)
+>
+> 0x1b - [GitHub](https://github.com/exodie) | [Discord](https://discordapp.com/users/770344408222400524/)
 
 ## Источники
 

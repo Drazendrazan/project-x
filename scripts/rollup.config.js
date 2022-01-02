@@ -16,7 +16,7 @@ const buildOutput = 'dist'
 const isProduction = process.env.NODE_ENV === 'production'
 const sourcePath = path.resolve('src')
 const pkgJson = jetpack.read('package.json', 'json')
-const localInstalledPackages = [...Object.keys(pkgJson.dependencies)]
+const localInstalledPackages = [...Object.keys(pkgJson.dependencies), 'path', 'rage-rpc']
 
 /**
  * Resolve given path by fs-jetpack
@@ -133,6 +133,7 @@ export default [
     plugins: [
       nodeResolvePlugin(),
       jsonPlugin(),
+      commonjs(),
       typescriptPlugin({
         check: false,
         tsconfig: resolvePath([sourcePath, 'server', 'tsconfig.json']),
